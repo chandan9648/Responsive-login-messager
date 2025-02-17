@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html,body{
+    background-color: aliceblue;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+}
+.container{
+    height: 27rem;
+    width: 20rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    flex-direction: column;
+    background: transparent;
+    font-weight: 600;
+    transform: scale(1.1);
+    font-size: medium;
+    
+}
+h1{
+    color: rgb(28, 239, 28);
+    
+}
+#name{
+    width: 13rem;
+    height: 1.5rem;
+    border-radius: 2%;
+    
+}
+
+#name:active{
+    border: 3px blue;
+}
+#email{
+    width: 13rem;
+    height: 1.5rem;
+    border-radius: 2%;
+
+}
+#email:active{
+    border: 3px blue;
+}
+
+#msg{
+    
+    border-radius: 2%;
+}
+
+button{
+    background-color: rgb(67, 67, 232);
+    color: white;
+    border-radius: 3%;
+    transition: all;
+    width: 13rem;
+    height: 1.8rem;
+    margin-top: 10px;
+    
+}
+button:hover{
+    transform: scale(1.1);
+}
+
